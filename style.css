@@ -1,0 +1,47 @@
+body {
+  text-align: center;
+  background-color: rgba(34, 167, 240, 0.1);
+}
+#canvas {
+  border: 2px solid black;
+  border-bottom: 2px dashed rgb(252, 4, 4);
+  margin-bottom: 10px;
+  background-color: rgba(175, 187, 4, 0.61);
+}
+
+.main-bar {
+  text-align: center;
+  margin: 10px 10px 10px 5px;
+  
+}
+
+.results {
+  display: inline-block;
+  padding: 5px;
+  border: black 2px solid;
+  width: fit-content;
+}
+
+label {
+  display: inline;
+  border: gray 1px dashed;
+  padding: 2px;
+  width: 100px;
+  font: 3em sans-serif;
+}
+.tip{
+  
+font-size: 14px;
+}
+.btn {
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+}
+#btn {
+  display: inline-block;
+  width: 200px;
+  font-size: 24px;
+  color: blue;
+  margin-left: 5px;
+}
