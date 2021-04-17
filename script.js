@@ -151,6 +151,8 @@ function collisionDetection() {
     ballX + BALL_RADIUS <= padelX + PADEL_WIDTH + STEP
   ) {
     dy = -STEP;
+    // to make randomization effect with ball movement
+      dx = dx + (ballX + dx - padelX) / 100;
     hits += 1;
   }
   /* collision of Bricks */
